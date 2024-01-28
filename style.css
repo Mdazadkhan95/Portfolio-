@@ -1,0 +1,446 @@
+.nav
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    
+}
+.nav-logo
+{
+    height: 90px;
+    width: 100px;
+    cursor: pointer;
+
+}
+.nav-logo img
+{
+    height: 90px;
+    width: 90px;
+    margin-top: 3px;
+    margin-left: 10px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.nav-head-option
+{
+    height: 100px;
+    width: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    
+
+}
+.nav-head-option p:hover
+{
+    background: gray;
+    box-shadow: 2px;
+}
+.nav-logo img:hover
+{
+    box-shadow: 3px 3px;
+}
+.div-body
+{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+    50deg, 
+    rgb(238, 144, 159),
+    rgb(173, 220, 220));
+    line-height: 3rem;
+    margin-top: 4rem;
+    /* padding: 20px; */
+    display: flex;
+}
+.div-body-logo img
+{
+    height: 400px;
+    width: 300px;
+ 
+    /* position: absolute;
+    right: 0; */
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 4rem;
+    margin-left: 4rem;
+    /* margin-right: 3rem; */
+    /* box-shadow: 10px 10px; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    /* border-radius: 50%; */
+}
+.div-body-text  
+{
+    font-size: 1.5rem;
+   margin-top: 2rem;
+   margin-left: 2rem;
+}
+.div-body-text h3
+{
+    color: #6674cc;
+    font-size: 3rem;
+}
+.div-space
+{
+    width: 200px;
+}
+.div-body-btn
+{
+    height: 100px;
+    width: 300px;
+    /* padding: 30px; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.div-body-btn button
+{
+    height: 75px;
+    width: 300px;
+    background-color: #6674cc;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.Explore
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.project
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    font-size: 2rem;
+    text-align: center;
+    background-color: beige;
+}
+.img1
+{
+    height: 700px;
+}
+
+.prjct
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: antiquewhite;
+}
+.project-output1
+{
+    height: 100%;
+    width: 100vh;
+    background-color: #6674cc;
+    border-radius: 10px;
+}
+.project-output2
+{
+    height: 100%;
+    width: 100vh;
+    background-color: #6674cc;
+    border-radius: 10px;
+}
+.project-output3
+{
+    height: 100%;
+    width: 100vh;
+    background-color: #6674cc;
+    border-radius: 10px;
+}
+.friends-section
+{
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+.friends
+{
+    height: 100%;
+    width: 100%;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+.azad
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.suraj
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.sanjan
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.afzal
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.asad
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.shazad
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.ganesh
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.himanshu
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.ranjit
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.rahul
+{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 30px;
+}
+.azad-logo img
+{
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.azad-title
+{
+    background-color: rgb(161, 154, 154);
+    border-radius: 20px;
+}
+.azad-title p
+{
+    margin: 0px;
+}
+.azad-title h2
+{
+    margin: 0px;
+}
+.personal-information
+{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    border-radius: 20px;
+}
+.personal-details
+{
+    height: 100%;
+    width: 100%;
+    /* padding: 20px;
+    margin: 20px; */
+}
+.h1
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+.details 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.details1
+{
+    background-color: #eee;
+    text-align: justify;
+    height: 250px;
+    width: 400px;
+}
+.details2
+{
+    background-color: #eee;
+    text-align: justify;
+    height: 250px;
+    width: 400px;
+}
+.details3
+{
+    background-color: #eee;
+    text-align: justify;
+    height: 250px;
+    width: 400px;
+}
+.personal-details li, H3, h1
+{
+    margin-left: 2rem;
+    margin-top: 20px;
+    
+}
+.marks
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+.marks table
+{
+    border: 4px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.marks th, td
+{
+    padding: 1rem;
+    text-align: center;
+}
+.marks th
+{
+    background-color: antiquewhite;
+}
+.marks tr:nth-child(odd)
+{
+    background-color: #eee;
+}
+.marks tr:nth-child(even)
+{
+    background-color: rgba(235, 224, 226, 0.605);
+}
+.footer
+{
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: yellow;
+    padding: 2px;
+}
+.foot 
+{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(198, 191, 236);
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.foot-img
+{
+    height: 300px;
+    width: 200px;
+}
+.foot-img img
+{
+    height: 200px;
+    width: 150px;
+    margin-top: 3rem;
+    margin-left: 20px;
+}
+.foot-title
+{
+    height: 300px;
+    width: 600px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.foot-icon i
+{
+    /* color: aliceblue; */
+    margin-top: 14rem;
+    margin-left: 1rem;
+    font-size: 3.3rem;
+  
+}
+.insta
+{
+    color: #d62976;
+}
+.linkedin
+{
+    color: #0072b1;
+}
+.facebook
+{
+    color: #3b5998;
+}
+.whatsapp
+{
+    color: #128c7e;
+}
+.Github
+{
+    color: black;
+
+}
+.twitter
+{
+    color: black;
+}
